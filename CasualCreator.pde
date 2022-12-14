@@ -46,11 +46,11 @@ Casual_Creator childA;
 Casual_Creator childB;
 Casual_Creator childC;
 
-PShape pointer;
-
 void setup() {
   size(400, 300, P2D);
   background(102);
+  
+  windowMove(100, 0);
 }
 
 void draw() {
